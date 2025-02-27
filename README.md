@@ -2,7 +2,7 @@
 ### RP2040-based OBD2 J1850 VPW to Serial Adapter (and data logger)
 ##### This project was an experiment to see if I could implement J1850 VPW in RP2040 PIO mode.  I am now using it as an in-vehicle data logger and for benchtop testing of GM parts that use Class2 messaging.
 - Implements J1850 VPW protocol in PIO (including 4X mode)
-	*- (see `vpw_receive` and `vpw_send` files for details)*
+	- *(see [vpw_receive](https://github.com/endjuser/rp2040-vpw/blob/main/vpw_receive.ino) and [vpw_send](https://github.com/endjuser/rp2040-vpw/blob/main/vpw_send.ino) files for details)*
 - Supports multiple simultaneous connections e.g. USB serial + Bluetooth serial
 - Acts as an ELM327 clone (with additional features)
 - Includes some custom GM-specific commands to aid in diagnosing VPW-based modules on the workbench:
